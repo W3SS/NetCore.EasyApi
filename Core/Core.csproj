@@ -1,8 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
-    <RootNamespace>NetCore.EasyApi.Core</RootNamespace>
-  </PropertyGroup>
-
-</Project>
