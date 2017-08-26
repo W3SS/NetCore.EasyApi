@@ -7,16 +7,13 @@ using Xunit;
 
 namespace Core.UnitTest
 {
-    namespace Core.UnitTest
+    public class AutofacContainerFactoryTest
     {
-        public class AutofacContainerFactoryTest
+        [Fact]
+        public void GetSuccess()
         {
-            [Fact]
-            public void GetSuccess()
-            {
-                var container = AutofacContainerFactory.Get(new ServiceCollection());
-                Assert.NotNull(container);
-            }
+            var container = AutofacContainerFactory.Get(new ServiceCollection());
+            Assert.NotNull(container);
         }
     }
 }
